@@ -5,3 +5,11 @@ __pycache__/
 .blender-mcp-test/
 .DS_Store
 Thumbs.db
+
+# Intermediate modeling data: keep scripts, referenced baselines, and final exports
+blender/_debug/
+blender/_work/*.blend
+blender/_work/*.blend1
+blender/_work/*.png
+!blender/_work/stage3.blend
+!blender/_work/robot_dog_enclosure_v3_pre_lidfix.blend
